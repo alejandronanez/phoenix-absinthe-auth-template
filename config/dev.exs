@@ -4,7 +4,7 @@ use Mix.Config
 config :ticketo, Ticketo.Repo,
   username: "postgres",
   password: "postgres",
-  database: "ticketo_dev",
+  database: "ticketo-dev",
   hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10

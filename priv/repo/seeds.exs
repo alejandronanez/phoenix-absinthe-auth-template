@@ -9,3 +9,27 @@
 #
 # We recommend using the bang functions (`insert!`, `update!`
 # and so on) as they will fail if something goes wrong.
+
+alias Ticketo.Repo
+alias Ticketo.Accounts.User
+
+%User{}
+|> User.changeset(%{
+  email: "admin@example.com",
+  password: "password"
+})
+|> Repo.insert!()
+
+%User{}
+|> User.changeset(%{
+  email: "alejandro@example.com",
+  password: "password"
+})
+|> Repo.insert!()
+
+%User{}
+|> User.changeset(%{
+  email: "angela@example.com",
+  password: "password"
+})
+|> Repo.insert!()
