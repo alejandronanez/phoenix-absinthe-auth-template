@@ -8,6 +8,10 @@ This is a template that's meant to be used as a starting point for your next Pho
 
 I wouldn't consider this to be production ready because I'm not an expert in Elixir/Phoenix so this template might have some bad patterns and a bunch things that can be improved. That said, if you want to improve this project, feel free to open an issue or pull request.
 
+## Why is it called Ticketo?
+
+There's no real reason for this, I had to pick a name for the project and that was the first thing that came to my mind
+
 ## Versions
 
 ```
@@ -28,7 +32,8 @@ Guardian: 2.0
 ### Queries
 
 - Me (current user)
-  ![](https://cdn.zappy.app/1ec94aae61c20f65840fa5314d9da3f8.png)
+
+![](https://cdn.zappy.app/1ec94aae61c20f65840fa5314d9da3f8.png)
 
 ### Mutations
 
